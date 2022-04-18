@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(13, 130, 13, 0.91);
+    padding-top: 10px;
+    
+}
+#snakeCanvas{
+    background-image: url("./Assets/bg.jpg");
+    border: 20px solid rgb(17, 54, 21);
+    background-color: rgba(17, 54, 21, 0.91);
+    /* background-blend-mode: multiply; */
+    /* padding: 1em; */
+    /* width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-size: contain; */
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+.gameover{
+    z-index: 1;
+}
